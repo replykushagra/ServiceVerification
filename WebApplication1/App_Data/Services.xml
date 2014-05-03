@@ -1,0 +1,33 @@
+<Services>
+	<Service>
+		<SName>Find Value</SName>
+		<WSDL>http://venus.eas.asu.edu/WSRepository/Services/BasicThree/Service.asmx?WSDL</WSDL>
+		<Function>
+			<FName>Hello World</FName>
+			<Input>string,double,int</Input>
+			<Output>string</Output>
+		</Function>
+		<Function>
+			<FName>PiValue</FName>
+			<Input>string,double,int</Input>
+			<Output>double</Output>
+		</Function>
+		<Function>
+			<FName>abs</FName>
+			<Input>int</Input>
+			<Output>int</Output>
+		</Function>
+	</Service>
+
+
+	<Service>
+		<SName>Stock</SName>
+		<WSDL>http://www.webservicex.net/stockquote.asmx?WSDL</WSDL>
+		<Function>
+			<FName>GetQuote</FName>
+			<Input>string</Input>
+			<Output>string</Output>
+		</Function>		
+	</Service>
+
+</Services>
